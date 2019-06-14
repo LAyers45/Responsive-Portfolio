@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 </head>
 
 <body>
@@ -19,17 +20,20 @@
         <div class="container">
             <form action="action_page.php">
 
-                <label for="name">Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <div class="labels">
+                    <label for="name">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" placeholder="YourEmail@email.com">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="YourEmail@email.com">
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write your message here..."
-                    style="height:200px"></textarea>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message here..."
+                        style="height:200px"></textarea>
 
-                <input type="submit" value="Submit">
+                    <input type="submit" value="Submit">
+                </div>
+
 
             </form>
         </div>

@@ -57,7 +57,7 @@ h2{
 
 }
 body{
-    background-image: url("../images/floor-tile.png")
+    background-image: url("assets/images/floor-tile.png")
 }
 .Profile_Pic{
     float: left;
@@ -171,3 +171,69 @@ input[type=text], select, textarea {
     background-color:#4aaaa5;
     font-size:25px;
   }
+  @media only screen and (max-width: 980px) {
+  }
+  @media only screen and (max-width: 768px){
+    .name{
+        width:768px;
+        text-align:center;
+    }
+    a{
+        float:none;
+
+        
+    }
+    .content{
+        width:99%
+
+    }
+    .about-me{
+        width:98%;
+    }
+    #About{
+        float:left;
+    }
+    #Portfolio{
+        float:left;
+    }
+    #Contact{
+        float:left;
+        margin-left: 4px;
+        border-left: solid 1px #cccc;
+        
+    }
+    .labels{
+        width:640px;
+    }
+  }
+  @media only screen and (max-width: 640px){
+    .name{
+        width:640px;
+        text-align:center;
+        
+    }
+    a{
+        float:none;
+
+    }
+    .content{
+        width: 99%;
+    }
+    .about-me{
+        width:98%;
+    }
+    #About{
+        float:left;
+    }
+    #Portfolio{
+        float:left;
+    }
+    #Contact{
+        float:left;
+        margin-left: 4px;
+        border-left: solid 1px #cccc;
+    }
+    .labels{
+        width:640px;
+    }
+}
