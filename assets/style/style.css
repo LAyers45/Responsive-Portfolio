@@ -1,43 +1,48 @@
 .full-header{
     position:fixed;
     top:0;
-    background-color:#ffffff;
+    background-color: #666666;
     height:100px;
     width:100%;
     border-bottom: solid 2px #cccc;
 }
 .name{
-    width:300px;
-    height:50px;
-    font-size:45px;
+    position: relative;
+    top:30px;
+    width:350px;
+    height:70px;
+    font-size:60px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color:#4aaaa5;
     color: #ffffff;
-}
 
+}
+li {
+    list-style-image: url("assets/images/githubImage.svg");
+    }
 .top-stuff{
     width: 960px;
     margin-left: auto;
     margin-right: auto;
     clear:auto;
+    
 
 }
 a:link{
-    float:right;
-    text-decoration:none;
+ text-decoration: none;
 }
-a:visited{
-    text-decoration: none;
+.pageLinks{
+    float:right;
 }
 #About{
-    padding-left: 4px;
-    margin-left: 4px;
-    border-left: solid 1px #cccc;
+    padding-right: 4px;
+    margin-right: 4px;
+    border-right: solid 1px #cccc;
 }
 #Portfolio{
-    padding-left: 4px;
-    margin-left: 4px;
-    border-left: solid 1px #cccc;    
+    padding-right: 4px;
+    margin-right: 4px;
+    border-right: solid 1px #cccc;    
 }
 .content{
     width: 960px;
@@ -56,9 +61,9 @@ h2{
 
 
 }
-body{
-    background-image: url("assets/images/floor-tile.png")
-}
+body {
+    background-color: #cccccc;
+  }
 .Profile_Pic{
     float: left;
     position: relative;
@@ -137,17 +142,17 @@ input[type=text], select, textarea {
     clear: both;
     display: table;
   }
-.earbud-image{
+.warImage{
     float:left;
     text-align: center;
     color: white;
 }
-.level-image{
+.trainImage{
     float:left;
     text-align: center;
     color: white;
 }
-.mp3-image{
+.crystalImage{
     float:left;
     text-align: center;
     color: white;
@@ -164,13 +169,14 @@ input[type=text], select, textarea {
 }
 .centered {
     position:relative;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width:300px;
     background-color:#4aaaa5;
     font-size:25px;
-  }
+}
+
+  
   @media only screen and (max-width: 980px) {
   }
   @media only screen and (max-width: 768px){
@@ -178,11 +184,7 @@ input[type=text], select, textarea {
         width:768px;
         text-align:center;
     }
-    a{
-        float:none;
 
-        
-    }
     .content{
         width:99%
 
